@@ -362,3 +362,4 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 /ToWatch/ClientApp/.angular/cache
+/ToWatch.Web/ClientApp/.angular/cache/14.1.3

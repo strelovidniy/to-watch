@@ -1,42 +1,17 @@
-<div class="container">
-  <div class="navbar">
-      <nav>
-          <ul>
-          <ul><a  class="genres" style="color: aliceblue;" href="#">Genres</a></ul>   
-          <ul><a class="rating"style="color: aliceblue;" href="#">Rating</a></ul>   
-          <ul><a  class="reviews" style="color: aliceblue;" href="#">Reviews</a></ul>   
-          <ul><a class="recommendations" style="color: aliceblue;" href="#">Recommendations</a></ul>   
-          <ul><a class="search" style="color: aliceblue;" href="#">Search</a></ul>   
-          </ul>
-       </nav>
-  </div>
-  <div class="row">
-      <div class="col"> 
-          <h1>Premieres</h1>
-          <div class="button"> 
-              <button > More films</button>
-          </div>
+<div class="home-wrapper">
+  <div class="film" *ngFor="let film of films">
+    <div class="face face1">
+      <div class="content">
+        <i class="fab fa-windows"></i>
+        <h3>{{film}}</h3>
       </div>
-      <div class="col"> 
-          <a href="#">    <div class="card card1"> </div> </a>
-          <a href="#"> <div class="card card2"> </div></a>
-          <a href="#"> <div class="card card3"> </div></a>
-          <a href="#"> <div class="card card4"> </div></a>
-</div>
-</div>
-  <div class="content">
-       <div class="row-col">
-            <div class="text-col">
-          <h2><span>Popular films</span> </h2>
-              </div>
-          </div>
-      <div class="slider"> 
-         <span style="--i:1;"> <a href="#"><img src="https://s8.vcdn.biz/static/f/5021383391/image.jpg/pt/r300x423x4" alt=""></a> </span>
-         <span style="--i:2;"> <a href="#"><img src="https://s5.vcdn.biz/static/f/5306026361/image.jpg/pt/r300x423x4" alt=""></a> </span>
-         <span style="--i:3;"> <a href="#"><img src="https://s8.vcdn.biz/static/f/5366033531/image.jpg/pt/r300x423x4" alt=""></a> </span>
-         <span style="--i:4;"> <a href="#"><img src="https://s8.vcdn.biz/static/f/874900781/image.jpg/pt/r300x423x4 " alt=""></a> </span>
-         <span style="--i:5;"> <a href="#"><img src="https://s3.vcdn.biz/static/f/5366198541/image.jpg/pt/r300x423x4" alt=""></a> </span>
-         <span style="--i:6;"> <a href="https://megogo.net/en/view/2114201-ice-age-continental-drift.html"><img src="https://s9.vcdn.biz/static/f/616107051/image.jpg/pt/r300x423x4 " alt=""></a> </span>
-         <span style="--i:7;"> <a href="#"><img src="https://s8.vcdn.biz/static/f/4069016261/image.jpg/pt/r300x423x4" alt=""></a> </span>
+    </div>
+    <div class="face face2">
+      <div class="content">
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic
+          cum ratione a.</p>
+        <a href="#" type="button">Read More</a>
       </div>
+    </div>
   </div>
+</div>
